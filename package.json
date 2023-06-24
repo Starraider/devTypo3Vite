@@ -11,15 +11,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mandrasch/ddev-typo3-vite-svelte.git"
+    "url": "git+https://github.com/Starraider/devTypo3Vite.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mandrasch/ddev-typo3-vite-svelte/issues"
+    "url": "https://github.com/Starraider/devTypo3Vite/issues"
   },
-  "homepage": "https://github.com/mandrasch/ddev-typo3-vite-svelte#readme",
+  "homepage": "https://github.com/Starraider/devTypo3Vite#readme",
   "devDependencies": {
     "vite": "^4.3.5"
   },

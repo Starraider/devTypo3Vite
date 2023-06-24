@@ -111,7 +111,7 @@ return [
         'features' => [
             'yamlImportsFollowDeclarationOrder' => true,
         ],
-        'sitename' => 'Svelte Demo Site',
+        'sitename' => 'devTypo3Vite',
         'systemMaintainers' => [
             1,
         ],
