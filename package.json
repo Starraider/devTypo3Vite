@@ -1,0 +1,30 @@
+{
+  "name": "html",
+  "version": "1.0.0",
+  "description": "## Local setup (first time)",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mandrasch/ddev-typo3-vite-svelte.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mandrasch/ddev-typo3-vite-svelte/issues"
+  },
+  "homepage": "https://github.com/mandrasch/ddev-typo3-vite-svelte#readme",
+  "devDependencies": {
+    "vite": "^4.3.5"
+  },
+  "dependencies": {
+    "@sveltejs/vite-plugin-svelte": "^2.2.0",
+    "sass": "^1.62.1"
+  }
+}
