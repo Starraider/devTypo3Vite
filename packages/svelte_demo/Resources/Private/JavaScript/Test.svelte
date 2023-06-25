@@ -22,7 +22,7 @@
 <style>
   .svelte-demo-block {
     min-height: 200px;
-    border: 4px dotted green;
+    border: 4px dotted grey;
     padding: 10px;
   }
 </style>

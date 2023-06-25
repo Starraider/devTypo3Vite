@@ -20,14 +20,14 @@ styles {
 ### PAGE ###
 ############
 page {
-     fluidtemplate {
+    fluidtemplate {
         layoutRootPath = EXT:svelte_demo/Resources/Private/Layouts/Page/
         partialRootPath = EXT:svelte_demo/Resources/Private/Partials/Page/
         templateRootPath = EXT:svelte_demo/Resources/Private/Templates/Page/
     }
     meta {
         description =
-        author =
+        author = Sven Kalbhenn
         keywords =
         viewport = width=device-width, initial-scale=1
         robots = index,follow
@@ -51,6 +51,6 @@ config {
     removeDefaultJS = 0
     admPanel = 1
     prefixLocalAnchors = all
-    headerComment = build by sitepackagebuilder.com
+    headerComment = build by www.skom.de
     sendCacheHeaders = 1
 }

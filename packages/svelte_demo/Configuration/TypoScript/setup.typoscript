@@ -144,7 +144,7 @@ page {
     }
 
     includeCSS {
-        svelte_demo_layout = EXT:svelte_demo/Resources/Public/Css/layout.css
+        #svelte_demo_layout = EXT:svelte_demo/Resources/Public/Css/layout.css
     }
 
     includeJSLibs {
@@ -174,10 +174,8 @@ page {
     page.headerData {
         # TODO: shorthand src=":" did not work?
         10 = TEXT
-        # 10.value = <script type="module" src=":5173/@vite/client"></script>
         10.value = <script type="module" src="https://devtypo3vite.ddev.site:5173/@vite/client"></script>
         20 = TEXT
-        # 20.value = <script type="module" src=":5173/packages/svelte_demo/Resources/Private/JavaScript/main.js"></script>
         20.value = <script type="module" src="https://devtypo3vite.ddev.site:5173/packages/svelte_demo/Resources/Private/JavaScript/main.js"></script>
     }
 [END]
@@ -197,6 +195,7 @@ page {
 #### CONFIG ####
 ################
 config {
+    htmlTag.attributes.data-bs-theme = auto
     absRefPrefix = auto
     no_cache = {$config.no_cache}
     uniqueLinkVars = 1

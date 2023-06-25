@@ -1,8 +1,39 @@
+//
 // abstracts
+// contains no actual styles
+//
 @import 'abstracts/variables';
 
-// basic
-@import 'basic/typography';
+//
+// vendors
+// third-party stylesheets
+//
+@import "bootstrap/scss/bootstrap";
 
+//
+// base
+// boilerplate used throughout the entire site
+//
+@import 'basic/typography';
+@import 'basic/icon-list';
+@import 'basic/color-modes';
+
+//
 // layout
-@import 'layout/layout';
+// structural layout
+//
+@import "layout/navigation";
+@import "layout/container";
+@import "layout/footer";
+@import "layout/meta";
+
+//
+// plugins
+// TYPO3 plugins
+//
+@import "plugins/forms";
+
+//
+// components
+// reusable components
+//
