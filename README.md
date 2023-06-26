@@ -1,12 +1,12 @@
-# DGVT TYPO3-Website
+# TYPO3-Website with Vite and Svelte
 
-This project is the DGVT TYPO3-Websites.
+This project is the  TYPO3-Websites.
 It offers:
 
 - DDEV configuration
 - TYPO3 configuration
 - Default Extensions
-- Webpack Encore
+- Development environment with Vite and Svelte
 - Linting & Testing
 - Deployment (manual and automatic)
 - customer_sitepackage (for the project specific customizations)
