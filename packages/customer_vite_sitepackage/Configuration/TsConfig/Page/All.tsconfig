@@ -1,0 +1,7 @@
+#
+# PageTS for Svelte customer_vite_sitepackage
+#
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:customer_vite_sitepackage/Configuration/TsConfig/Page/RTE.tsconfig">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:customer_vite_sitepackage/Configuration/TsConfig/Page/TCEFORM.tsconfig">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:customer_vite_sitepackage/Configuration/TsConfig/Page/TCEMAIN.tsconfig">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:customer_vite_sitepackage/Configuration/TsConfig/Page/Mod/WebLayout/BackendLayouts.tsconfig">

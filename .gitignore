@@ -16,4 +16,4 @@ nbproject
 !/.ddev/.env
 
 # vite build output
-/packages/svelte_demo/Resources/Public/CompiledJavaScript/*
+/packages/customer_vite_sitepackage/Resources/Public/CompiledJavaScript/*

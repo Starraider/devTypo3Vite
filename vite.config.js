@@ -14,9 +14,9 @@ export default defineConfig({
       'https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400&display=swap',
     ]),
     FullReload([
-      'packages/svelte_demo/Resources/Private/Layouts/**/*',
-      'packages/svelte_demo/Resources/Private/Templates/**/*',
-      'packages/svelte_demo/Resources/Private/Partials/**/*',
+      'packages/customer_vite_sitepackage/Resources/Private/Layouts/**/*',
+      'packages/customer_vite_sitepackage/Resources/Private/Templates/**/*',
+      'packages/customer_vite_sitepackage/Resources/Private/Partials/**/*',
     ]),
   ],
   server: {
@@ -28,9 +28,11 @@ export default defineConfig({
     // generate manifest.json in outDir
     manifest: true,
     rollupOptions: {
-      input: 'packages/svelte_demo/Resources/Private/JavaScript/main.js',
+      input:
+        'packages/customer_vite_sitepackage/Resources/Private/JavaScript/main.js',
     },
-    outDir: 'packages/svelte_demo/Resources/Public/CompiledJavaScript',
+    outDir:
+      'packages/customer_vite_sitepackage/Resources/Public/CompiledJavaScript',
   },
   css: {
     devSourcemap: true, // disabled by default because of performance reasons
