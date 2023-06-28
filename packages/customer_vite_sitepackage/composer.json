@@ -4,6 +4,15 @@
     "description": "",
     "homepage": "https://mandrasch.dev",
     "license": ["GPL-2.0-or-later"],
+	"version": "11.0.0",
+	"authors": [
+		{
+			"name": "Sven Kalbhenn",
+			"email": "sven@skom.de",
+			"homepage": "https://www.skom.de",
+			"role": "Developer"
+		}
+	],
     "keywords": ["TYPO3 CMS"],
     "require": {
         "typo3/cms-core": "^11.5",

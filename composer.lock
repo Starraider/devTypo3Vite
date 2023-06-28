@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "54c270c7ba9549a177c7462a3b39ff6e",
+    "content-hash": "86e9c5829a37e8b733883552725587c3",
     "packages": [
         {
             "name": "b13/container",
@@ -2680,12 +2680,54 @@
             "time": "2022-09-02T21:24:55+00:00"
         },
         {
+            "name": "skom/base_vite_sitepackage",
+            "version": "11.0.0",
+            "dist": {
+                "type": "path",
+                "url": "./packages/base_vite_sitepackage",
+                "reference": "858b82e42604e9b1ff0aa99abfdbd63465b78046"
+            },
+            "require": {
+                "bk2k/bootstrap-package": "^13.0 || ^14.0"
+            },
+            "type": "typo3-cms-extension",
+            "extra": {
+                "typo3/cms": {
+                    "extension-key": "base_vite_sitepackage"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Skom\\BaseViteSitepackage\\": "Classes/"
+                }
+            },
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Sven Kalbhenn",
+                    "email": "sven@skom.de",
+                    "homepage": "https://www.skom.de",
+                    "role": "Developer"
+                }
+            ],
+            "description": "This sitepackage is the base for TYPO3 with Vite and Bootstrap",
+            "homepage": "https://www.skom.de",
+            "keywords": [
+                "TYPO3 CMS"
+            ],
+            "transport-options": {
+                "relative": true
+            }
+        },
+        {
             "name": "skom/customer_vite_sitepackage",
-            "version": "dev-develop",
+            "version": "11.0.0",
             "dist": {
                 "type": "path",
                 "url": "./packages/customer_vite_sitepackage",
-                "reference": "3283df001bbd68231f705732b49867b2d351222e"
+                "reference": "2a9751d59e95af21fce00249487cb5a98e68e2fe"
             },
             "require": {
                 "typo3/cms-core": "^11.5",
@@ -2705,6 +2747,14 @@
             },
             "license": [
                 "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Sven Kalbhenn",
+                    "email": "sven@skom.de",
+                    "homepage": "https://www.skom.de",
+                    "role": "Developer"
+                }
             ],
             "homepage": "https://mandrasch.dev",
             "keywords": [
@@ -7545,6 +7595,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
+        "skom/base_vite_sitepackage": 20,
         "skom/customer_vite_sitepackage": 20
     },
     "prefer-stable": false,
