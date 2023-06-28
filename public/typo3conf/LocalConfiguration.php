@@ -27,6 +27,21 @@ return [
             'loginLogo' => '',
             'loginLogoAlt' => '',
         ],
+        'bootstrap_package' => [
+            'disableCssProcessing' => '0',
+            'disableGoogleFontCaching' => '0',
+            'disablePageTsBackendLayouts' => '0',
+            'disablePageTsContentElements' => '0',
+            'disablePageTsRTE' => '0',
+            'disablePageTsTCADefaults' => '0',
+            'disablePageTsTCEFORM' => '0',
+            'disablePageTsTCEMAIN' => '0',
+        ],
+        'content_animations' => [
+            'disableAddAnimationsTab' => '0',
+            'extendedAnimationSettings' => '0',
+            'hideFooterAnimationLabel' => '0',
+        ],
         'extensionmanager' => [
             'automaticInstallation' => '1',
             'offlineMode' => '0',
