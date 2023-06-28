@@ -1,0 +1,3 @@
+[submodule "packages/base_vite_sitepackage"]
+	path = packages/base_vite_sitepackage
+	url = git@github.com:Starraider/base_vite_sitepackage.git
